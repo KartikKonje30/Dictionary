@@ -2,7 +2,6 @@ import "./styles.css";
 import React, { useState } from "react";
 
 const dictionaryData = [
-[
 
   { word: "React", meaning: "A JavaScript library for building user interfaces." },
 
@@ -10,7 +9,6 @@ const dictionaryData = [
 
   { word: "State", meaning: "An object that stores data for a component." }
 
-]
 ];
 
 export default function App() {
